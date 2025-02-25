@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+.container {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+
+}
+.section {
+    font-size: 13px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.section-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-main  label{
+    width: 180px;
+}
+
+.gender{
+    display: flex;
+    justify-content: start;
+
+}
+
+.section-gender{
+    width: 120px !important;
+}
+
+.section-preferred{
+    display: flex;
+    justify-content: start;
+}
+
+.section-preferred label{
+    width: 120px;
+}
+.section-preferred input{
+    width: 12px;
+}
+.section-active{
+    display: flex;
+    justify-content: start;
+}
+
+.section-active input{
+    width: 173px  !important;
+    height: 13px !important;
+}
+
+.section-note{
+    width: 200px !important;
+}
+.section-human{
+    display: flex;
+    justify-content: start;
+}
+
+.section-human label{
+    width: 125px;
+}
+
+.human-text{
+    font-weight: 700;
+    padding-left: 120px;
+}
+.human-main input{
+    width: 165%;
+}
+.section h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.gender-options input {
+    width: auto;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.submit-icon{
+    padding: 0;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 3px;
+
+    background-color: black;
+    color: white;
+}
+.cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
