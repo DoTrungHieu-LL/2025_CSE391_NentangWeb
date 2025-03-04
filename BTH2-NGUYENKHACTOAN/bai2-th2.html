@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joe's Travel Page</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #440044;
+            color: #fff;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #f4c542;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        
+        .hero {
+            position: relative;
+            width: 100%;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content h1 {
+            font-size: 28px;
+        }
+
+        .hero-content p {
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: yellow;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        
+        .highlights {
+            background-color: #d7f3e3;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .highlights h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .highlight-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .highlight-item {
+            width: 250px;
+        }
+
+        .highlight-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .highlight-item p {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        .country {
+            color: green;
+        }
+
+        
+        footer {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+    </head>
+    <body>
+
+        <header>
+            <div class="logo">TRAVEL GOALS</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <img src="vinh-Ha-Long.jpg"
+                alt="Background Image">
+            <div class="hero-content">
+                <h1>JOE'S TRAVEL PAGE</h1>
+                <p>Let's explore the world together!</p>
+                <a href="#" class="btn">Discover places</a>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <h2>HIGHLIGHTS</h2>
+            <div class="highlight-list">
+                <div class="highlight-item">
+                    <img src="miami.jpeg"
+                        alt="Miami USA">
+                    <p>MIAMI <span class="country">USA</span></p>
+                </div>
+                <div class="highlight-item">
+                    <img
+                        src="munich.jpeg"
+                        alt="Munich ">
+                    <p>MUNICH <span class="country">GERMANY</span></p>
+                </div>
+                <div class="highlight-item">
+                    <img
+                        src="barce.jpeg"
+                        alt="Barcelona">
+                    <p>BARCELONA <span class="country">SPAIN</span></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </footer>
+
+    </body>
+</html>
