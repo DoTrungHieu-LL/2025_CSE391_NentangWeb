@@ -1,0 +1,47 @@
+body, html{
+    margin:0;
+    padding:0;
+    font-size: 1em;
+    font-weight: 300;
+    color:white;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.item{
+    background-color:gray;
+    padding: 16px;
+    border:1px solid white;
+}
+
+.main{
+    display:flex;
+    width:100vw;
+} 
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    height:80vh;
+}
+
+.aside{
+    display:flex;
+    min-width:40vw;
+}
+.footer{
+
+}
+
+.item.header{
+    min-width:60vw;
+}
+.item.article{
+    flex-grow:1;
+}
+.item.footer-content{
+    height:20vh;
+}
+.item.menu{
+    flex-grow:1;
+ }

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+  }
+  body {
+    background-color: #f4f4f4;
+  }
+  header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 100;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+    text-decoration: none;
+  }
+  nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 20px; 
+    /* Tao khoang cach giua cac phan tu con */
+  }
+  .nav-link {
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+  }
+  #hero {
+    position: relative;
+    text-align: center;
+  }
+  .hero-img {
+    width: 100%;
+    height: 500px;
+    
+  }
+  #hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 30px 170px;
+    border-radius: 5px;
+  }
+  #hero-content button {
+    background: yellow;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  #highlights {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .destinations {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+  }
+  .destination img {
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .destination p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .destination span {
+    color: green;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+  }
+  .social-links img {
+    width: 40px;
+    margin: 0 10px;
+  }
