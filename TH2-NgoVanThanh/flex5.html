@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wireframe Layout</title>
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+            padding: 10px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 10px;
+        }
+
+        .menu button {
+            background-color: white;
+            border: 1px solid black;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Main content */
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            width: 200px;
+            height: 300px;
+            background-color: lightgray;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box .header {
+            height: 60px;
+            background-color: gray;
+        }
+
+        /* Footer */
+        .footer {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            padding: 20px;
+            gap: 10px;
+        }
+
+        .footer-item {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            padding: 10px 20px;
+        }
+    </style>
+    </head>
+    <body>
+
+        <!-- Header -->
+        <div class="header">
+            <div class="menu">
+                <button>Menu 1</button>
+                <button>Menu 2</button>
+                <button>Menu 3</button>
+                <button>Menu 4</button>
+                <button>Menu 5</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="container">
+            <div class="box">
+                <div class="header"></div>
+            </div>
+            <div class="box">
+                <div class="header"></div>
+            </div>
+            <div class="box">
+                <div class="header"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-item">Footer item</div>
+            <div class="footer-item">Footer item</div>
+        </div>
+
+    </body>
+</html>
